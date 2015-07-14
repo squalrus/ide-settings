@@ -1,0 +1,17 @@
+[credential]
+	helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
+[core]
+	editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
+[difftool]
+	prompt = false
+[merge]
+	tool = tortoisemerge
+[mergetool "tortoisemerge"]
+	prompt = false
+    keepBackup = false
+    path = C:\\Program Files\\TortoiseGit\\bin\\tortoisegitmerge.exe
+[push]
+	default = simple
+[user]
+	email = chschulz@microsoft.com
+	name = Chad Schulz

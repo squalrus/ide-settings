@@ -1,0 +1,19 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"EJS",
+		"LESS",
+		"Package Control",
+		"Predawn",
+		"Pretty JSON",
+		"Razor",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint"
+	]
+}
