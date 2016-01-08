@@ -1,3 +1,5 @@
+[credential]
+	helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 [core]
 	editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
 [difftool]
