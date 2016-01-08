@@ -2,7 +2,8 @@
 	"auto_complete_commit_on_tab": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
+  	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"draw_indent_guides": true,
 	"fade_fold_buttons": false,
 	"font_size": 9,
 	"highlight_line": true,
@@ -10,6 +11,9 @@
 	[
 		"Vintage"
 	],
+	"predawn_findreplace_small": true,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_medium": true,
 	"rulers":
 	[
 		80,
