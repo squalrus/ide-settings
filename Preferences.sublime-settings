@@ -16,8 +16,7 @@
 	"predawn_tabs_medium": true,
 	"rulers":
 	[
-		80,
-		120
+		70
 	],
 	"scroll_past_end": true,
 	"theme": "predawn-DEV.sublime-theme",
