@@ -15,3 +15,7 @@
 [user]
 	email = chschulz@microsoft.com
 	name = Chad Schulz
+[alias]
+    s = status
+    co = checkout
+    commend = commit --amend --no-edit

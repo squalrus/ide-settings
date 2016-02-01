@@ -15,3 +15,7 @@
 [user]
 	email = chad.awesome@gmail.com
 	name = Chad Schulz
+[alias]
+    s = status
+    co = checkout
+    commend = commit --amend --no-edit
