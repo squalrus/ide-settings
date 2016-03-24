@@ -19,3 +19,12 @@
     s = status
     co = checkout
     commend = commit --amend --no-edit
+
+# normal, black, red, green, yellow, blue, magenta, cyan, or white
+# bold, dim, ul (underline), blink, and reverse (swap foreground and background)
+[color]
+    ui = true
+[color "status"]
+    changed = red bold
+    untracked = red bold
+    added = green bold
