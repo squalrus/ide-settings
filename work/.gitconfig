@@ -1,5 +1,17 @@
+[alias]
+    s = status
+    co = checkout
+    commend = commit --amend --no-edit
 [credential]
     helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
+# normal, black, red, green, yellow, blue, magenta, cyan, or white
+# bold, dim, ul (underline), blink, and reverse (swap foreground and background)
+[color]
+    ui = true
+[color "status"]
+    changed = red bold
+    untracked = red bold
+    added = green bold
 [core]
     editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
 [difftool]
@@ -15,16 +27,3 @@
 [user]
     email = chschulz@microsoft.com
     name = Chad Schulz
-[alias]
-    s = status
-    co = checkout
-    commend = commit --amend --no-edit
-
-# normal, black, red, green, yellow, blue, magenta, cyan, or white
-# bold, dim, ul (underline), blink, and reverse (swap foreground and background)
-[color]
-    ui = true
-[color "status"]
-    changed = red bold
-    untracked = red bold
-    added = green bold

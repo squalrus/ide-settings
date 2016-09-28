@@ -1,21 +1,23 @@
-[credential]
-	helper = manager
-[core]
-	editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
-[difftool]
-	prompt = false
-[merge]
-	tool = tortoisemerge
-[mergetool "tortoisemerge"]
-	prompt = false
-    keepBackup = false
-    path = C:\\Program Files\\TortoiseGit\\bin\\tortoisegitmerge.exe
-[push]
-	default = simple
-[user]
-	email = chad.awesome@gmail.com
-	name = Chad Schulz
 [alias]
     s = status
     co = checkout
     commend = commit --amend --no-edit
+[credential]
+    helper = manager
+[color]
+    ui = true
+[core]
+    editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
+[difftool]
+    prompt = false
+[merge]
+    tool = tortoisemerge
+[mergetool "tortoisemerge"]
+    prompt = false
+    keepBackup = false
+    path = C:\\Program Files\\TortoiseGit\\bin\\tortoisegitmerge.exe
+[push]
+    default = simple
+[user]
+    email = chad.awesome@gmail.com
+    name = Chad Schulz
