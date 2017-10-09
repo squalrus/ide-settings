@@ -1,3 +1,44 @@
 {
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "cSpell.userWords": [
+        "acom",
+        "artboard",
+        "cela",
+        "clicktale",
+        "ctas",
+        "disqus",
+        "docdb",
+        "dreamspark",
+        "dropdown",
+        "fwlink",
+        "guid",
+        "jpgs",
+        "jsll",
+        "marketo",
+        "mimetype",
+        "mixpanel",
+        "optimizely",
+        "pngs",
+        "rect",
+        "repurpose",
+        "svgs",
+        "tspan",
+        "upsell",
+        "webjob",
+        "xlink",
+        "xmlns"
+    ],
+    "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "eslint.autoFixOnSave": false,
+    "files.insertFinalNewline": true,
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": -1,
+    "eslint.workingDirectories": [
+        "."
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "material-icon-theme.showWelcomeMessage": false,
+    "material-icon-theme.showUpdateMessage": false
 }
