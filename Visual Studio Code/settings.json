@@ -40,5 +40,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro Vivid",
     "material-icon-theme.showWelcomeMessage": false,
-    "material-icon-theme.showUpdateMessage": false
+    "material-icon-theme.showUpdateMessage": false,
+    "explorer.confirmDragAndDrop": false
 }
