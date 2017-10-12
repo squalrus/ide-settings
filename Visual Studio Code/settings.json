@@ -41,5 +41,8 @@
     "workbench.colorTheme": "One Dark Pro Vivid",
     "material-icon-theme.showWelcomeMessage": false,
     "material-icon-theme.showUpdateMessage": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "csharp.suppressDotnetRestoreNotification": false,
+    "workbench.editor.enablePreview": false,
+    "editor.formatOnPaste": false
 }
