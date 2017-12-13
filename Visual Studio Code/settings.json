@@ -10,9 +10,10 @@
         "."
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "City Lights",
+    "workbench.colorTheme": "One Dark Pro Vivid",
     "material-icon-theme.showWelcomeMessage": false,
     "material-icon-theme.showUpdateMessage": false,
+    "explorer.confirmDragAndDrop": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "explorer.confirmDelete": false,
     "sublimeTextKeymap.promptV3Features": true,
@@ -20,4 +21,8 @@
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "csharp.suppressDotnetRestoreNotification": false,
+    "workbench.editor.enablePreview": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.tabSizing":"shrink"
 }
