@@ -7,7 +7,7 @@
 [color]
     ui = true
 [core]
-    editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
+    editor = 'C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe' -w -n
 [difftool]
     prompt = false
 [merge]
