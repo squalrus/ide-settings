@@ -7,7 +7,8 @@
 [color]
     ui = true
 [core]
-    editor = 'C:\\Program Files\\Microsoft VS Code Insiders\\Code - Insiders.exe' -w -n
+    editor = 'C:\\Program Files\\Microsoft VS Code\\Code.exe' -w -n
+    # Command Line Interface (CLI): https://code.visualstudio.com/docs/editor/command-line#_core-cli-options
 [difftool]
     prompt = false
 [merge]
