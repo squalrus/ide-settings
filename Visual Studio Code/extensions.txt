@@ -1,0 +1,8 @@
+DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
+ms-vscode.csharp
+ms-vscode.sublime-keybindings
+PKief.material-icon-theme
+shinnn.stylelint
+streetsidesoftware.code-spell-checker
+zhuangtongfa.Material-theme
