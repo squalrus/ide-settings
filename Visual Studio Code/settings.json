@@ -2,7 +2,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "eslint.autoFixOnSave": false,
+    "eslint.autoFixOnSave": true,
     "files.insertFinalNewline": true,
     "editor.renderWhitespace": "all",
     "window.zoomLevel": -1,
@@ -16,13 +16,23 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "explorer.confirmDelete": false,
-    "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
     "csharp.suppressDotnetRestoreNotification": false,
     "workbench.editor.enablePreview": false,
     "extensions.ignoreRecommendations": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.tabSizing":"shrink"
+    "workbench.editor.tabSizing": "shrink",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.renderControlCharacters": true
 }

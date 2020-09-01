@@ -2,7 +2,9 @@
     s = status
     cob = !git checkout -b $0 --no-track origin/master
     commend = commit --amend --no-edit
-    supdate = submodule update --recursive
+    erdone = pull --recurse-submodules
+    publish = !"git push --set-upstream origin $(git branch-name)"
+    branch-name = rev-parse --abbrev-ref HEAD
 [credential]
     helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 # normal, black, red, green, yellow, blue, magenta, cyan, or white

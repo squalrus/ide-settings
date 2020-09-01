@@ -1,8 +1,12 @@
+austincummings.razor-plus
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
-ms-vscode.csharp
+ms-azuretools.vscode-azurefunctions
+ms-dotnettools.csharp
+ms-vscode.azure-account
 ms-vscode.sublime-keybindings
+ms-vsliveshare.vsliveshare
 PKief.material-icon-theme
-shinnn.stylelint
 streetsidesoftware.code-spell-checker
-zhuangtongfa.Material-theme
+stylelint.vscode-stylelint
+zhuangtongfa.material-theme
