@@ -1,8 +1,13 @@
 {
     "files.trimTrailingWhitespace": true,
+    "[xml]": {
+        "files.insertFinalNewline": false
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "eslint.autoFixOnSave": true,
     "files.insertFinalNewline": true,
     "editor.renderWhitespace": "all",
     "window.zoomLevel": -1,
@@ -24,13 +29,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.tabSizing": "shrink",
     "diffEditor.ignoreTrimWhitespace": true,
-    "githubPullRequests.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
