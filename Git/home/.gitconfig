@@ -1,7 +1,10 @@
 [alias]
     s = status
-    co = checkout
+    cob = !git checkout -b $0 --no-track origin/master
     commend = commit --amend --no-edit
+    erdone = pull --recurse-submodules
+    publish = !"git push --set-upstream origin $(git branch-name)"
+    branch-name = rev-parse --abbrev-ref HEAD
 [credential]
     helper = manager
 [color]
