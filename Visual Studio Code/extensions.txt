@@ -1,4 +1,5 @@
 austincummings.razor-plus
+CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 ms-azuretools.vscode-azurefunctions
@@ -6,6 +7,7 @@ ms-dotnettools.csharp
 ms-vscode.azure-account
 ms-vscode.sublime-keybindings
 ms-vsliveshare.vsliveshare
+oderwat.indent-rainbow
 PKief.material-icon-theme
 streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
