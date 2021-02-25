@@ -1,12 +1,14 @@
 [alias]
     s = status
-    cob = !git checkout -b $0 --no-track origin/master
     commend = commit --amend --no-edit
+    create = "!f() { git checkout -b squalrus/$1; }; f"
     erdone = pull --recurse-submodules
     publish = !"git push --set-upstream origin $(git branch-name)"
     branch-name = rev-parse --abbrev-ref HEAD
 [credential]
     helper = manager
+# normal, black, red, green, yellow, blue, magenta, cyan, or white
+# bold, dim, ul (underline), blink, and reverse (swap foreground and background)
 [color]
     ui = true
 [core]
