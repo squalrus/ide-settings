@@ -2,7 +2,9 @@ austincummings.razor-plus
 CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+donjayamanne.githistory
 ms-azuretools.vscode-azurefunctions
+ms-azuretools.vscode-azureresourcegroups
 ms-dotnettools.csharp
 ms-vscode.azure-account
 ms-vscode.sublime-keybindings
@@ -11,4 +13,5 @@ oderwat.indent-rainbow
 PKief.material-icon-theme
 streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
+wayou.vscode-todo-highlight
 zhuangtongfa.material-theme
