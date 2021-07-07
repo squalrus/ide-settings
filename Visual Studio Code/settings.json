@@ -8,14 +8,14 @@
     },
     "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.insertFinalNewline": true,
     "editor.renderWhitespace": "all",
     "window.zoomLevel": -1,
-    "eslint.workingDirectories": [
-        "."
-    ],
+    "eslint.workingDirectories": ["."],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Dark Pro Vivid",
+    "workbench.colorTheme": "Cobalt Next",
     "material-icon-theme.showWelcomeMessage": false,
     "material-icon-theme.showUpdateMessage": false,
     "explorer.confirmDragAndDrop": false,
@@ -36,5 +36,11 @@
     // Custom terminal UI
     // https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh
     // https://medium.com/@youngstone89/how-to-change-font-for-terminal-in-visual-studio-code-c3305fe6d4c2
-    "terminal.integrated.fontFamily": "Cascadia Code PL"
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "files.associations": {
+        "*.njk": "html",
+        ".prettierrc": "yaml",
+        ".sassrc": "json",
+        ".stylelintrc": "yaml"
+    }
 }
