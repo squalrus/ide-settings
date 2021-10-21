@@ -5,6 +5,7 @@
     erdone = pull --recurse-submodules
     publish = !"git push --set-upstream origin $(git branch-name)"
     branch-name = rev-parse --abbrev-ref HEAD
+    whodunit = log --full-history --
 [credential]
     helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 # normal, black, red, green, yellow, blue, magenta, cyan, or white
