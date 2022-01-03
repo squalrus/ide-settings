@@ -42,5 +42,7 @@
         ".prettierrc": "yaml",
         ".sassrc": "json",
         ".stylelintrc": "yaml"
-    }
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
 }
