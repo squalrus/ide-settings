@@ -1,10 +1,11 @@
 [alias]
-    s = status
+    branch-name = rev-parse --abbrev-ref HEAD
     commend = commit --amend --no-edit
     create = "!f() { git checkout -b squalrus/$1; }; f"
     erdone = pull --recurse-submodules
     publish = !"git push --set-upstream origin $(git branch-name)"
-    branch-name = rev-parse --abbrev-ref HEAD
+    reset-le = !"git rm .gitattributes && git add . && git reset --hard"
+    s = status
     whodunit = log --full-history --
 [credential]
     helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
