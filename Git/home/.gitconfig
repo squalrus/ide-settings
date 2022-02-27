@@ -1,20 +1,22 @@
 [alias]
-    s = status
+    # local-purge = !"git branch | %{$_.trim()}  | ?{$_ -notmatch 'master' -and $_ -notmatch 'main'} | %{git branch -d $_.trim()}"
+    branch-name = rev-parse --abbrev-ref HEAD
     commend = commit --amend --no-edit
     create = "!f() { git checkout -b squalrus/$1; }; f"
     erdone = pull --recurse-submodules
     publish = !"git push --set-upstream origin $(git branch-name)"
-    branch-name = rev-parse --abbrev-ref HEAD
+    reset-le = !"git rm .gitattributes && git add . && git reset --hard"
+    s = status
     whodunit = log --full-history --
 [credential]
     helper = manager
-# normal, black, red, green, yellow, blue, magenta, cyan, or white
-# bold, dim, ul (underline), blink, and reverse (swap foreground and background)
 [color]
+    # normal, black, red, green, yellow, blue, magenta, cyan, or white
+    # bold, dim, ul (underline), blink, and reverse (swap foreground and background)
     ui = true
 [core]
-    editor = 'C:\\Program Files\\Microsoft VS Code\\Code.exe' -w -n
     # Command Line Interface (CLI): https://code.visualstudio.com/docs/editor/command-line#_core-cli-options
+    editor = 'C:\\Users\\chada\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe' -w -n
 [difftool]
     prompt = false
 [merge]

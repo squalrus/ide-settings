@@ -9,15 +9,12 @@
     whodunit = log --full-history --
 [credential]
     helper = !'C:\\Users\\chschulz\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
-# normal, black, red, green, yellow, blue, magenta, cyan, or white
-# bold, dim, ul (underline), blink, and reverse (swap foreground and background)
 [color]
+    # normal, black, red, green, yellow, blue, magenta, cyan, or white
+    # bold, dim, ul (underline), blink, and reverse (swap foreground and background)
     ui = true
-[color "status"]
-    changed = red bold
-    untracked = red bold
-    added = green bold
 [core]
+    # Command Line Interface (CLI): https://code.visualstudio.com/docs/editor/command-line#_core-cli-options
     editor = 'C:\\Program Files\\Microsoft VS Code\\Code.exe' -w -n
 [difftool]
     prompt = false
