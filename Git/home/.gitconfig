@@ -2,7 +2,7 @@
     # local-purge = !"git branch | %{$_.trim()}  | ?{$_ -notmatch 'master' -and $_ -notmatch 'main'} | %{git branch -d $_.trim()}"
     branch-name = rev-parse --abbrev-ref HEAD
     commend = commit --amend --no-edit
-    create = "!f() { git checkout -b squalrus/$1; }; f"
+    create = "!f() { git checkout -b users/squalrus/$1; }; f"
     erdone = pull --recurse-submodules
     publish = !"git push --set-upstream origin $(git branch-name)"
     reset-le = !"git rm .gitattributes && git add . && git reset --hard"
