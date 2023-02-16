@@ -16,6 +16,7 @@
 [core]
     # Command Line Interface (CLI): https://code.visualstudio.com/docs/editor/command-line#_core-cli-options
     editor = 'C:\\Program Files\\Microsoft VS Code\\Code.exe' -w -n
+    longpaths = true
 [difftool]
     prompt = false
 [merge]
